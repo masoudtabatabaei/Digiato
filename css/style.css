@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: "IRANSansWeb-Bold";
+    src: url('../fonts/IRANSansWeb_Bold.woff') format('woff'),
+    url('../fonts/IRANSansWeb_Bold.woff2') format('woff2');
+}
+
+body {
+    font-family: IRANSansWeb-Bold !important;
+    margin: 0;
+    padding: 0;
+}
+
+.no-padding-bt {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.site-logo {
+    background-color: #212121;
+    /*background-image: url("https://digiato.com/wp-content/themes/digiavu/img/logos/digiato-logo-small-white-justlogotype.svg");*/
+    /*background-repeat: no-repeat;*/
+}
+
+.nav-item {
+    padding: 4px 8px;
+}
+
+.nav-item:hover {
+    background-color: rgba(255 , 255 , 255 , 0.3);
+}
+
+.notice-widget{
+    margin-top: 48px;
+    background-color: #000000;
+    padding: 1em 0;
+    height: 55px;
+    line-height: 55px;
+}
