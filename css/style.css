@@ -7,13 +7,24 @@
 
 body {
     font-family: IRANSansWeb-Bold !important;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #F4F4F5 !important;
 }
 
 .no-padding-bt {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+
+.no-padding-rl{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.no-margin-rl {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 
 .site-logo {
@@ -36,4 +47,112 @@ body {
     padding: 1em 0;
     height: 55px;
     line-height: 55px;
+}
+
+.ads-full-width {
+    padding: 1.5em 2em;
+}
+
+.inner-card {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-card-time{
+    font-size: 10px;
+    color: #cccccc;
+}
+
+.large-news-card {
+    position: relative;
+    padding: 0 0.25rem !important;
+    background-blend-mode: darken;
+}
+
+.large-news-row{
+    margin-bottom: -0.5rem !important;
+}
+
+#lnc1{
+    background: linear-gradient(to top, #555555 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/dennis-hwang-google-doodler-800x448.jpg') no-repeat center/cover content-box;
+    height: 350px;
+}
+
+#lnc2{
+    background: linear-gradient(to top, #555555 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/main_15-600x400.jpg') no-repeat center/cover content-box;
+    height: 350px;
+}
+
+#lnc3{
+    background: linear-gradient(to top, #333 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/star-wars-commander-14727-5-145x145.jpg')  no-repeat center/cover content-box;
+    height: 150px;
+}
+
+#lnc4{
+    background: linear-gradient(to top, #333 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/Prigramming-Language-145x145.jpg')  no-repeat center/cover content-box;
+    height: 150px;
+}
+
+#lnc5{
+    background: linear-gradient(to top, #333 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/N83162947-72766312-145x145.jpg')  no-repeat center/cover content-box;
+    height: 150px;
+}
+
+
+.large-news-card  figcaption {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    text-align: right;
+    float: right;
+}
+
+.large-news-card  figcaption .inner-card:hover{
+    text-decoration: none;
+}
+
+.scrolled-news{
+    width: 85%;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 0.1px solid #E6E6E6;
+}
+
+.news-title{
+    padding: 0.8rem 0.8rem;
+    text-align: right;
+}
+
+.side-news-item {
+    padding: 0.8rem 0.5rem;
+    border-bottom: 0.1px solid #E6E6E6;
+}
+
+.side-news-item a {
+    display: block;
+    cursor: pointer;
+}
+
+.side-news-item a img {
+    width: inherit;
+}
+
+.news-list{
+    border: 0.1px solid #E6E6E6;
+}
+
+.news-block{
+    display: block;
+    width: 100%;
+    border-bottom:  0.1px solid #E6E6E6;
+}
+
+.news-block-content{
+    text-align: right;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    background-color: #cccccc;
 }
