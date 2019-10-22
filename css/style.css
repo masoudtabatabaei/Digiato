@@ -1,15 +1,34 @@
-
 @font-face {
     font-family: "IRANSansWeb-Bold";
     src: url('../fonts/IRANSansWeb_Bold.woff') format('woff'),
     url('../fonts/IRANSansWeb_Bold.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: "IRANSansWeb-Light";
+    src: url('../fonts/IRANSansWeb_Light.woff') format('woff'),
+    url('../fonts/IRANSansWeb_Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IRANSansWeb-Medium";
+    src: url('../fonts/IRANSansWeb_Medium.woff') format('woff'),
+    url('../fonts/IRANSansWeb_Medium.woff2') format('woff2');
+}
+
 body {
-    font-family: IRANSansWeb-Bold !important;
+    font-family: "IRANSansWeb-Bold" !important;
     margin: 0 !important;
     padding: 0 !important;
     background-color: #F4F4F5 !important;
+}
+
+ul {
+    list-style-type: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
 }
 
 .no-padding-bt {
@@ -17,7 +36,7 @@ body {
     padding-bottom: 0 !important;
 }
 
-.no-padding-rl{
+.no-padding-rl {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
@@ -38,10 +57,10 @@ body {
 }
 
 .nav-item:hover {
-    background-color: rgba(255 , 255 , 255 , 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
-.notice-widget{
+.notice-widget {
     margin-top: 48px;
     background-color: #000000;
     padding: 1em 0;
@@ -59,7 +78,7 @@ body {
     height: 100%;
 }
 
-.inner-card-time{
+.inner-card-time {
     font-size: 10px;
     color: #cccccc;
 }
@@ -70,37 +89,36 @@ body {
     background-blend-mode: darken;
 }
 
-.large-news-row{
+.large-news-row {
     margin-bottom: -0.5rem !important;
 }
 
-#lnc1{
-    background: linear-gradient(to top, #555555 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/dennis-hwang-google-doodler-800x448.jpg') no-repeat center/cover content-box;
+#lnc1 {
+    background: linear-gradient(to top, #555555, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/dennis-hwang-google-doodler-800x448.jpg') no-repeat center/cover content-box;
     height: 350px;
 }
 
-#lnc2{
-    background: linear-gradient(to top, #555555 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/main_15-600x400.jpg') no-repeat center/cover content-box;
+#lnc2 {
+    background: linear-gradient(to top, #555555, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/main_15-600x400.jpg') no-repeat center/cover content-box;
     height: 350px;
 }
 
-#lnc3{
-    background: linear-gradient(to top, #333 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/star-wars-commander-14727-5-145x145.jpg')  no-repeat center/cover content-box;
+#lnc3 {
+    background: linear-gradient(to top, #333, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/star-wars-commander-14727-5-145x145.jpg') no-repeat center/cover content-box;
     height: 150px;
 }
 
-#lnc4{
-    background: linear-gradient(to top, #333 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/Prigramming-Language-145x145.jpg')  no-repeat center/cover content-box;
+#lnc4 {
+    background: linear-gradient(to top, #333, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/Prigramming-Language-145x145.jpg') no-repeat center/cover content-box;
     height: 150px;
 }
 
-#lnc5{
-    background: linear-gradient(to top, #333 , #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/N83162947-72766312-145x145.jpg')  no-repeat center/cover content-box;
+#lnc5 {
+    background: linear-gradient(to top, #333, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/N83162947-72766312-145x145.jpg') no-repeat center/cover content-box;
     height: 150px;
 }
 
-
-.large-news-card  figcaption {
+.large-news-card figcaption {
     position: absolute;
     bottom: 10px;
     right: 15px;
@@ -108,11 +126,11 @@ body {
     float: right;
 }
 
-.large-news-card  figcaption .inner-card:hover{
+.large-news-card figcaption .inner-card:hover {
     text-decoration: none;
 }
 
-.scrolled-news{
+.scrolled-news {
     width: 85%;
     background-color: #ffffff;
     margin-left: auto;
@@ -120,39 +138,176 @@ body {
     border-top: 0.1px solid #E6E6E6;
 }
 
-.news-title{
-    padding: 0.8rem 0.8rem;
+.news-title {
+    padding: 1rem 0.8rem 0.2rem;
     text-align: right;
 }
 
-.side-news-item {
-    padding: 0.8rem 0.5rem;
+.side-widget-ads {
+    padding: 0.8rem;
     border-bottom: 0.1px solid #E6E6E6;
 }
 
-.side-news-item a {
+.side-widget-ads img {
+    width: 100%;
+}
+
+.side-widget-news {
+    padding: 0.8rem;
+}
+
+.side-widget-news h4{
+    color: #424242;
+    margin-bottom: 0.8rem;
+}
+
+.side-widget-news .news-item {
+    position: relative;
     display: block;
-    cursor: pointer;
+    height: 100px;
+    max-height: 100px;
+    margin-bottom: 1rem !important;
+    overflow: hidden;
+    -webkit-box-shadow: -1px 0px 6px #bababa;
+    -moz-box-shadow: -1px 0px 6px #bababa;
+    box-shadow: -1px 0px 6px #bababa;
+    transition: all 0.3s ease-in-out;
 }
 
-.side-news-item a img {
-    width: inherit;
+.side-widget-news .news-item:hover {
+    -webkit-box-shadow: 0px 5px 10px #787878;
+    -moz-box-shadow: 0px 5px 10px #787878;
+    box-shadow: 0px 5px 10px #787878;
 }
 
-.news-list{
+.side-widget-news .news-item img {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    float: right;
+}
+
+.side-widget-news .news-item span {
+    font-family: IRANSansWeb-Light;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    color: #424242;
+    transform: translateY(-50%);
+}
+
+.side-widget-news .news-item .full-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.news-list {
     border: 0.1px solid #E6E6E6;
 }
 
-.news-block{
-    display: block;
-    width: 100%;
-    border-bottom:  0.1px solid #E6E6E6;
+.news-article {
+    padding: 1rem 2rem;
+    border-bottom: 0.1px solid #E6E6E6;
+    text-align: right;
 }
 
-.news-block-content{
-    text-align: right;
-    width: 90%;
-    display: block;
+.news-article img {
+    width: 80%;
+    height: auto;
     margin: 0 auto;
-    background-color: #cccccc;
+}
+
+.news-article-img {
+    position: relative;
+    background: linear-gradient(to top, #333, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/10/1545496608199-650x450.jpg') no-repeat center/cover content-box;
+    background-blend-mode: darken;
+    height: 350px;
+}
+
+.news-article-img figcaption {
+    padding: 0 1.5rem;
+    position: absolute;
+    bottom: 0;
+    margin: 15px auto;
+}
+
+.news-article-img figcaption h1 {
+    font-size: 1.3rem;
+}
+
+.news-article-img figcaption h1 a {
+    color: #ffffff;
+}
+
+.news-article-title {
+    font-size: 1.2rem;
+}
+
+.news-article-title a {
+    color: #000000;
+}
+
+.news-article-title a:hover {
+    color: #555555;
+}
+
+.news-article-title img {
+    width: 50px;
+}
+
+.news-article-meta span {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: #cccccc;
+    font-family: IRANSansWeb-Light;
+}
+
+.news-article-content {
+    font-family: IRANSansWeb-Light;
+}
+
+.read-more-btn {
+    color: #ffffff !important;
+    -webkit-box-shadow: 3px 5px 10px #cccccc;
+    -moz-box-shadow: 3px 5px 10px #cccccc;
+    box-shadow: 3px 5px 10px #cccccc;
+}
+
+.rm-vigiato {
+    background-color: #E4002B !important;
+}
+
+.rm-rooziato {
+    background-color: #E24212 !important;
+}
+
+.custom-paginate {
+    padding: 1.5rem 0;
+}
+
+.custom-paginate ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+    padding: 4px 10px;
+}
+
+.custom-paginate ul li:hover {
+    background-color: #007BFF;
+    border-radius: 4px;
+}
+
+.custom-paginate ul li a {
+    font-family: IRANSansWeb-Light;
+    color: #000 !important;
+}
+
+.custom-paginate ul li:hover a {
+    color: #ffffff !important;
+}
+
+#test {
+    border: 1px solid red;
+    /*width: 100%;*/
+    /*height: 100px;*/
 }
