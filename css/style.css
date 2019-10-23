@@ -152,6 +152,7 @@ a:hover {
     width: 100%;
 }
 
+
 .side-widget-news {
     padding: 0.8rem;
 }
@@ -283,7 +284,8 @@ a:hover {
 }
 
 .custom-paginate {
-    padding: 1.5rem 0;
+    padding: 1.5rem 0 0.5rem;
+    background-color: #F4F4F5;
 }
 
 .custom-paginate ul li {
@@ -306,8 +308,142 @@ a:hover {
     color: #ffffff !important;
 }
 
-#test {
-    border: 1px solid red;
-    /*width: 100%;*/
-    /*height: 100px;*/
+.reviews {
+    background: url("https://digiato.com/wp-content/uploads/2019/09/Digipic-iPhone11ProMax-16-blurred.jpg") no-repeat center/cover;
 }
+
+.reviews > header, .special-articles > header {
+    padding: 1.5rem 2rem;
+}
+
+.reviews header {
+    border-bottom: 1px solid #888888;
+}
+
+.reviews h4, .reviews .btn-view-all-reviews {
+    color: #ffffff;
+    display: inline;
+}
+
+.reviews .btn-view-all-reviews {
+    background-color: #ffffff;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    color: #000;
+    box-shadow: 0px 2px 5px #555555;
+    float: left;
+}
+
+.reviews figure {
+    height: 200px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-blend-mode: darken;
+}
+
+.reviews #rev1 {
+    background: linear-gradient(to top, #555555, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/09/Digipic-iPhone11ProMax-16-450x300.jpg') no-repeat center/cover content-box;
+}
+
+.reviews #rev2 {
+    background: linear-gradient(to top, #555555, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/09/Digipic-HONOR20Pro-01-450x300.jpg') no-repeat center/cover content-box;
+}
+
+.reviews #rev3 {
+    background: linear-gradient(to top, #555555, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/09/Digipic-TSCO-TS2333-02-450x300.jpg') no-repeat center/cover content-box;
+}
+
+.reviews #rev4 {
+    background: linear-gradient(to top, #555555, #fff) content-box, url('https://digiato.com/wp-content/uploads/2019/09/Digipic-MSI-PS42-01-450x300.jpg') no-repeat center/cover content-box;
+}
+
+.review-items {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.review-items figcaption {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.5rem;
+    left: 1.5rem;
+}
+
+.review-items a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.spa-container {
+    display: flex;
+    width: 100%;
+}
+
+.spa-container > article {
+    width: 50%;
+    display: flex;
+}
+
+.spa-item-img {
+    float: right;
+    width: 50%;
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.spa-item-content {
+    flex: 1;
+    float: left;
+    width: 50%;
+    background-color: #007BFF;
+    position: relative;
+}
+
+.spa-item-content > header {
+    padding: 1rem;
+}
+
+.spa-item-footer {
+    font-family: IRANSansWeb-Light;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #97CCEE;
+}
+
+a.spa-read-more {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+}
+
+.spa-item-content h1 a {
+    color: #ffffff;
+}
+
+.spa-item-content h1 {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.spa-item-img a {
+    /*display: block;*/
+    /*width: 100%;*/
+}
+
+.spa-item-img a img {
+    width: 100%;
+}
+
+/*.col-container {*/
+/*display: table;*/
+/*width: 100%;*/
+/*}*/
+/*.col {*/
+/*display: table-cell;*/
+/*}*/
