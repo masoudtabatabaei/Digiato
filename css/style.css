@@ -312,7 +312,7 @@ a:hover {
     background: url("https://digiato.com/wp-content/uploads/2019/09/Digipic-iPhone11ProMax-16-blurred.jpg") no-repeat center/cover;
 }
 
-.reviews > header, .special-articles > header {
+.reviews > header, .special-articles > header, .businesses > header {
     padding: 1.5rem 2rem;
 }
 
