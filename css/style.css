@@ -10,12 +10,6 @@
     url('../fonts/IRANSansWeb_Light.woff2') format('woff2');
 }
 
-@font-face {
-    font-family: "IRANSansWeb-Medium";
-    src: url('../fonts/IRANSansWeb_Medium.woff') format('woff'),
-    url('../fonts/IRANSansWeb_Medium.woff2') format('woff2');
-}
-
 body {
     font-family: "IRANSansWeb-Bold" !important;
     margin: 0 !important;
@@ -48,8 +42,6 @@ a:hover {
 
 .site-logo {
     background-color: #212121;
-    /*background-image: url("https://digiato.com/wp-content/themes/digiavu/img/logos/digiato-logo-small-white-justlogotype.svg");*/
-    /*background-repeat: no-repeat;*/
 }
 
 .nav-item {
@@ -431,19 +423,6 @@ a.spa-read-more {
     color: #000;
 }
 
-.spa-item-img a {
-    /*display: block;*/
-    /*width: 100%;*/
-}
-
 .spa-item-img a img {
     width: 100%;
 }
-
-/*.col-container {*/
-/*display: table;*/
-/*width: 100%;*/
-/*}*/
-/*.col {*/
-/*display: table-cell;*/
-/*}*/
